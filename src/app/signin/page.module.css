@@ -1,0 +1,245 @@
+.loginIcon,
+.welcomeBack {
+  position: absolute;
+  top: 131px;
+  left: 123px;
+}
+.loginIcon {
+  top: 200px;
+  left: 140px;
+  width: 681px;
+  height: 681px;
+  object-fit: cover;
+}
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(31.22deg, #8c43e6, #ef8d6d);
+  width: 960px;
+  height: 1080px;
+}
+.googleIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.signInWith {
+  position: relative;
+  font-weight: 600;
+}
+.facebook,
+.google {
+  border-radius: var(--br-31xl);
+  box-shadow: 0 15px 50px rgba(222, 95, 143, 0.12);
+  width: 346px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.google {
+  background: linear-gradient(90deg, #f9af3a, #de5f8f);
+}
+.facebook {
+  background-color: var(--color-white);
+  color: #181d32;
+}
+.buttons,
+.orSignIn {
+  position: absolute;
+  left: 122px;
+}
+.buttons {
+  top: 246px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  color: var(--color-white);
+}
+.orSignIn {
+  top: 338px;
+}
+.iHaveAn,
+.orSignIn {
+  font-weight: 500;
+}
+.signUp {
+  color: var(--color-blueviolet);
+}
+.iHaveAnContainer {
+  position: absolute;
+  top: 46px;
+  left: 640px;
+}
+.copyright2023,
+.forgotPassword {
+  position: absolute;
+  top: 1018px;
+  left: 122px;
+  font-weight: 500;
+}
+.forgotPassword {
+  top: 536px;
+  left: 706px;
+  font-weight: 600;
+  color: var(--color-blueviolet);
+}
+.createYourAccount {
+  position: absolute;
+  top: 180px;
+  left: 122px;
+  font-size: 32px;
+  color: var(--color-black);
+}
+.emailAddressOr {
+  position: relative;
+}
+.vuesaxbolduserIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.typeHere {
+  position: relative;
+  font-weight: 500;
+}
+.inputField,
+.label {
+  display: flex;
+  justify-content: flex-start;
+}
+.inputField {
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  width: 346px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-5xl);
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-base);
+  color: var(--color-silver);
+}
+.label {
+  position: absolute;
+  top: 409px;
+  left: 122px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.div {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 108px;
+  height: 8px;
+  flex-shrink: 0;
+}
+.inputField1,
+.vuesaxboldlockParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.vuesaxboldlockParent {
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.inputField1 {
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  width: 346px;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-5xl);
+  font-size: var(--font-size-base);
+  color: var(--color-silver);
+}
+.label1 {
+  position: absolute;
+  top: 409px;
+  left: 492px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.checkboxChild {
+  position: relative;
+  border-radius: 6px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+}
+.checkbox {
+  top: 533px;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.button,
+.checkbox,
+.google1 {
+  position: absolute;
+  left: 122px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.google1 {
+  top: 591px;
+  border-radius: var(--br-31xl);
+  background: linear-gradient(90deg, #893be6, #f19065);
+  box-shadow: 0 15px 50px rgba(222, 95, 143, 0.12);
+  width: 346px;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  color: var(--color-white);
+}
+.button {
+  top: 44px;
+  justify-content: flex-start;
+  gap: 9px;
+  color: var(--color-black);
+}
+.form,
+.signIn {
+  background-color: var(--color-white);
+  height: 1080px;
+}
+.form {
+  position: absolute;
+  top: 0;
+  left: 960px;
+  width: 960px;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray);
+}
+.signIn {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  font-size: 56px;
+  color: var(--color-white);
+  font-family: var(--font-gilroy);
+}

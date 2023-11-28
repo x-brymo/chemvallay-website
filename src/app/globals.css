@@ -25,3 +25,36 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+@import url("https://fonts.googleapis.com/css2?family=Gilroy:wght@500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-gilroy: Gilroy;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkgray: #94969a;
+  --color-lavender: #eaebf6;
+  --color-silver: #c0c3d0;
+  --color-blueviolet: #553bf1;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-3xs: 10px;
+  --padding-5xl: 24px;
+
+  /* Border radiuses */
+  --br-31xl: 50px;
+}
